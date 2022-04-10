@@ -5,8 +5,9 @@ v <- 10
 dchisq(x,v,ncp=0)
 
 # Bagian (b)
+l <- 100
 set.seed(0)
-hist(rchisq(n,l),main="Histogram poison kelahiran bayi")
+hist(rchisq(l,v),main="Histogram poison kelahiran bayi")
 
 # Bagian (c)
 rataan = v
