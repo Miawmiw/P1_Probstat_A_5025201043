@@ -16,14 +16,14 @@ mean(rgeom(n,p)==3)
 
 # Bagian (d)
 set.seed(0)
-hist(rgeom(n,prob),main="Histogram Binomial Sembuh Covid")
+hist(rgeom(n,p),main="Histogram Binomial Sembuh Covid")
 
 # Bagian (e)
 
-rataan=(1/prob)
+rataan=(1/p)
 rataan
 
-varians=(1-prob)/prob^2
+varians=(1-p)/p^2
 varians
 
 #https://www.rumusstatistik.com/2015/10/mgf-distribusi-geometrik.html
