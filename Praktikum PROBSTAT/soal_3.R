@@ -17,6 +17,6 @@ hist(rpois(h,rataan),main="Histogram poison kelahiran bayi")
 
 
 
-# Nilai Rataan (??) dan Varian (??²) dari Distribusi Poisson.
+# Bagian (b)
 rataan
 varians
