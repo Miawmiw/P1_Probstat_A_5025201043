@@ -11,10 +11,12 @@ set.seed(0)
 h=365
 hist(rpois(h,rataan),main="Histogram poison kelahiran bayi")
 
-#dan bandingkan hasil poin a dan b , Apa kesimpulan yang bisa didapatkan
+#Bagian (c)
+# Bisa di badingkan pada hasil angka (a) dan grafik (b) bahwa
+# 0.1281201 x 365 mendekati/ sama dengan grafik
 
 
 
-# Nilai Rataan (??) dan Varian (??²) dari Distribusi Poisson.
+# Nilai Rataan (??) dan Varian (??Â²) dari Distribusi Poisson.
 rataan
 varians
